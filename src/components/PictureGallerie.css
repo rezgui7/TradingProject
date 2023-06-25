@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Set the height of the container to 100% of the viewport height */
+  }
+  
+  h3, p {
+    text-align: center;
+  }
+  .h3_tit {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    font-family: 'Enriqueta', arial, serif; 
+    color: #0d054d
+}  
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as per your preference */
+    justify-items: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    height: 30vh; /* Set the height of the container to 100% of the viewport height */
+  }
+  
+  .image-gallery a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+  }
+  
+  .image-gallery .image-container {
+    margin: -10px; /* Adjust the negative margin value to control the spacing between the images */
+  }
+  
+  .image-gallery img {
+    width: 88%; /* Adjust the width as per your preference */
+    height: auto;
+  }
+  .image-gallery p {
+    font-weight: normal; /* Set the initial font weight of the description */
+    transition: font-weight 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .image-gallery p:hover {
+    font-weight: bold; /* Set the font weight to normal on hover */
+  }
+  .p_tit {
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-family: 'Enriqueta', arial, serif; 
+    color: #14067d
+}  
